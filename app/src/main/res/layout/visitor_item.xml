@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/visitorLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/TableRow"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/id_visit_title"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            style="@style/TableHeader"
+            android:text="id_visit"/>
+
+        <TextView
+            android:id="@+id/id_visit"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            style="@style/TableHeader"
+            android:text="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/name_visit_title"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/id_visit_title"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            style="@style/TableHeader"
+            android:text="name_visit"/>
+
+        <TextView
+            android:id="@+id/name_visit"
+            app:layout_constraintStart_toEndOf="@id/name_visit_title"
+            app:layout_constraintTop_toTopOf="@id/name_visit_title"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:gravity="center"
+            style="@style/TableHeader"
+            android:text="Paul"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/surname_title"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/name_visit_title"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            style="@style/TableHeader"
+            android:text="surname"/>
+
+        <TextView
+            android:id="@+id/surname"
+            app:layout_constraintStart_toEndOf="@id/surname_title"
+            app:layout_constraintTop_toTopOf="@id/surname_title"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:gravity="center"
+            style="@style/TableHeader"
+            android:text="Landers"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/address_title"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/surname_title"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            style="@style/TableHeader"
+            android:text="address"/>
+
+        <TextView
+            android:id="@+id/address"
+            app:layout_constraintStart_toEndOf="@id/address_title"
+            app:layout_constraintTop_toTopOf="@id/address_title"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:gravity="center"
+            style="@style/TableHeader"
+            android:text="80435 American Ash Junction"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/phone_number_title"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/address_title"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            style="@style/TableHeader"
+            android:text="phone"/>
+
+        <TextView
+            android:id="@+id/phone_number"
+            app:layout_constraintStart_toEndOf="@id/phone_number_title"
+            app:layout_constraintTop_toTopOf="@id/phone_number_title"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:gravity="center"
+            style="@style/TableHeader"
+            android:text="573-336-5408"/>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+</LinearLayout>

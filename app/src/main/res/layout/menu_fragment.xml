@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:background="@color/colorPrimary"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:padding="15dp"
+        android:id="@+id/visitors"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/visitors"/>
+    <TextView
+        android:padding="15dp"
+        android:id="@+id/walk"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Walk"/>
+    <TextView
+        android:padding="15dp"
+        android:id="@+id/vet_clinic"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Vet_clinic"/>
+    <TextView
+        android:padding="15dp"
+        android:id="@+id/take"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Take"/>
+
+
+    <TextView
+        android:padding="15dp"
+        android:id="@+id/give"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Give"/>
+
+    <TextView
+        android:padding="15dp"
+        android:id="@+id/animal_shelter"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Animal_shelter"/>
+
+    <TextView
+        android:padding="15dp"
+        android:id="@+id/who_goes_walk"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Who_goes_walk"/>
+
+    <TextView
+        android:padding="15dp"
+        android:id="@+id/walk_animal"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Walk_animal"/>
+
+    <TextView
+        android:padding="15dp"
+        android:id="@+id/animal_clinic"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Animal_clinic"/>
+
+    <TextView
+        android:padding="15dp"
+        android:id="@+id/animal_service"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Animal_service"/>
+
+
+</LinearLayout>
